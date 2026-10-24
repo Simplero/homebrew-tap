@@ -10,15 +10,29 @@ This repo holds the Homebrew tap and the release downloads.
 
 ## Install
 
+**macOS and Linux**
+
 ```sh
-# Homebrew (macOS, Linux)
+# Homebrew
 brew install simplero/tap/simplero
 
-# Or the install script (macOS, Linux). It downloads the latest release and checks its SHA-256.
-curl -fsSL https://simplero.com/cli/install.sh | sh
+# Or the install script. It downloads the latest release and checks its SHA-256.
+curl -fsSL https://simplero.com/cli/install | sh
 ```
 
-Windows: download the `.zip` from [Releases](https://github.com/Simplero/homebrew-tap/releases).
+**Windows** (PowerShell)
+
+```powershell
+# The install script. It downloads the latest release, checks its SHA-256,
+# and adds simplero to your PATH.
+irm https://simplero.com/cli/install.ps1 | iex
+
+# Or Scoop
+scoop bucket add simplero https://github.com/Simplero/homebrew-tap
+scoop install simplero
+```
+
+Open a new terminal after installing, so it picks up the new PATH.
 
 ## Get started
 
@@ -51,7 +65,8 @@ that shows how to use the CLI.
 ## Update
 
 ```sh
-brew upgrade simplero
+brew upgrade simplero      # Homebrew
+scoop update simplero      # Scoop
 # or run the install script again
 ```
 
