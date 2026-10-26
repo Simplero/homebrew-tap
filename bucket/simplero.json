@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Simplero/homebrew-tap/releases/download/v0.1.0/simplero_0.1.0_windows_amd64.zip",
+            "bin": [
+                "simplero.exe"
+            ],
+            "hash": "26add87a29514cffed622883c69f0dbdd027a13bd230370f76d90d46210b43fb"
+        },
+        "arm64": {
+            "url": "https://github.com/Simplero/homebrew-tap/releases/download/v0.1.0/simplero_0.1.0_windows_arm64.zip",
+            "bin": [
+                "simplero.exe"
+            ],
+            "hash": "48f0c89b3aaabaa2c1bcb8a4878e1c95c3c58bec113f79106d0c8df84ab0861f"
+        }
+    },
+    "homepage": "https://github.com/Simplero/homebrew-tap",
+    "license": "Proprietary",
+    "description": "Command-line interface for Simplero"
+}
