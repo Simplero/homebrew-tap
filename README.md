@@ -74,3 +74,7 @@ scoop update simplero      # Scoop
 
 - Simplero: https://simplero.com
 - API reference: https://simplero.com/api/v2/reference
+
+## License
+
+MIT. See [LICENSE](LICENSE).
