@@ -1,19 +1,19 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Simplero/homebrew-tap/releases/download/v0.1.1/simplero_0.1.1_windows_amd64.zip",
+            "url": "https://github.com/Simplero/homebrew-tap/releases/download/v0.1.2/simplero_0.1.2_windows_amd64.zip",
             "bin": [
                 "simplero.exe"
             ],
-            "hash": "dfef6b48e2689aa1f9cb88daa672cfaf98975aec770e99aec0aa7c62ee7c184d"
+            "hash": "edf809cbb7ba20e55625bea63b193a5c8514bf3bd97da81c853200a55075eb4b"
         },
         "arm64": {
-            "url": "https://github.com/Simplero/homebrew-tap/releases/download/v0.1.1/simplero_0.1.1_windows_arm64.zip",
+            "url": "https://github.com/Simplero/homebrew-tap/releases/download/v0.1.2/simplero_0.1.2_windows_arm64.zip",
             "bin": [
                 "simplero.exe"
             ],
-            "hash": "d92e00f8787400370bedd7e44f04ec00bdb4fd0e487a9aee4a551a59b73ebfd9"
+            "hash": "10e364509cf775395d8d71caadc90ef7b25a55e7eeea83e6c1720f4a19f8c99e"
         }
     },
     "homepage": "https://github.com/Simplero/homebrew-tap",
