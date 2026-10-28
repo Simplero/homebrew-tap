@@ -13,11 +13,13 @@ This repo holds the Homebrew tap and the release downloads.
 **macOS and Linux**
 
 ```sh
-# Homebrew
-brew install simplero/tap/simplero
-
-# Or the install script. It downloads the latest release and checks its SHA-256.
 curl -fsSL https://simplero.com/cli/install | sh
+```
+
+It downloads the latest release and checks its SHA-256. Or use Homebrew:
+
+```sh
+brew install simplero/tap/simplero
 ```
 
 **Windows** (PowerShell)
